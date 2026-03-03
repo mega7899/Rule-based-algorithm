@@ -1,0 +1,111 @@
+body { 
+font-family: Arial, sans-serif; 
+max-width: 800px; 
+margin: 2rem auto; 
+padding: 1rem; 
+background: hsl(210, 78%, 30%); 
+}
+
+.container { 
+    background: rgb(255, 255, 255); 
+    padding: 2rem; border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+}
+
+h1 { 
+    text-align: center; 
+    color: #333; 
+}
+
+.expiry-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(210, 16%, 93%); 
+    padding: 1rem; 
+    margin: 0 180px;
+    border-radius: 6px; 
+    margin-bottom: 2rem; 
+}
+
+label { 
+    font-weight: bold; 
+    margin-right: 1rem; 
+}
+
+input[type="datetime-local"] { 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button { 
+    padding: 0.5rem 1rem; 
+    background: #2c62b8; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background: #218838; 
+}
+
+h2 { 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 0.5rem; 
+}
+
+.authentication-list { 
+    min-height: 100px; 
+    background: #f8f9fa; 
+    padding: 1rem; 
+    border-radius: 6px; 
+    margin-bottom: 2rem; 
+}
+
+.authentication-item {
+    background: white; 
+    padding: 0.5rem; 
+    margin-bottom: 0.5rem; 
+    border-left: 4px solid #ffc107; 
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.authentication-item p { 
+    margin: 0; 
+    flex-grow: 1; 
+}
+
+.approveBtn { 
+    background: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 0.3rem 0.8rem; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.removeBtn { 
+    background: #dc3545; 
+    color: white; 
+    border: none; 
+    padding: 0.3rem 0.8rem; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+#students-attendance_list { 
+    list-style: none; 
+    padding: 0; 
+}
+
+#students-attendance_list li { 
+    background: #d4edda; 
+    padding: 0.5rem; 
+    margin-bottom: 0.3rem; 
+    border-left: 4px solid #28a745; 
+}

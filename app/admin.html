@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👩‍🏫 Teacher Dashboard</h1>
+
+        <div class="expiry-section">
+            <label for="attendance-expire_time">Attendance Expire:</label>
+            <input type="time" id="attendance-expire_time">
+            <button id="open-attendance-btn">Set/Open</button>
+        </div>
+
+        <h2>⏳ Pending Approvals</h2>
+        <div class="authentication-list">
+            <!-- Attendance submissions will be injected here by JS -->
+        </div>
+
+        <h2>✅ Approved Attendance</h2>
+        <ul id="students-attendance_list">
+            <!-- Approved students will appear here -->
+        </ul>
+    </div>
+
+    <!-- Link to your admin JavaScript file -->
+    <script src="admin.js" defer></script>
+</body>
+</html>

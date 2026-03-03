@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+    <main id="main_container" class="closedState">
+        <h1>📋 Student Attendance</h1>
+        
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="e.g., John Doe">
+
+        <label for="section">Section</label>
+        <input type="text" id="section" placeholder="e.g., 10-A">
+
+        <button id="submitBtn">Check In</button>
+
+        <div id="infoText"></div>
+    </main>
+
+    <section id='secondary_container' class="closed_container">
+        <p id="sun"></p>
+        <h1>This page is currently not open. Please wait until your teacher open the attendance or ask your teacher to open this page.</h1>
+    </section>
+
+    <!-- Link to your attendance JavaScript file -->
+    <script src="attendance.js" defer></script>
+</body>
+</html>
